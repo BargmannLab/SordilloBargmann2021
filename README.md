@@ -10,8 +10,7 @@
 # Analysis was completed using custom MATLAB functions.
 
 # Nested MatLab structures were converted to .csv files using the following:
-# Gero Nootz (2021). Nested Structure to table and or text file (https://www.mathworks.com/matlabcentral/fileexchange/51271-nested-structure-to-table-and-or-text-file), 
-# MATLAB Central File Exchange. Retrieved January 17, 2020.
+# Gero Nootz (2021). Nested Structure to table and or text file (https://www.mathworks.com/matlabcentral/fileexchange/51271-nested-structure-to-table-and-or-text-file), MATLAB Central File Exchange. Retrieved January 17, 2020.
 
 # Any questions regarding these data should be directed to Aylesse Sordillo at aylesse.sordillo@gmail.com.
 
