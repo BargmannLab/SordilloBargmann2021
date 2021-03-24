@@ -7,7 +7,7 @@
 # All events per animal per minute are derived as described in the Methods. Data from all assays are pooled.
 # All data provided are from 4-8 min off food during local search. 
 
-# Analysis was completed using custom MATLAB functions.
+# Analysis was completed using the provided custom MATLAB functions.
 
 # Nested MatLab structures were converted to .csv files using the following: Gero Nootz (2021). Nested Structure to table and or text file (https://www.mathworks.com/matlabcentral/fileexchange/51271-nested-structure-to-table-and-or-text-file), MATLAB Central File Exchange. Retrieved January 17, 2020.
 
