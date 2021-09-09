@@ -11,6 +11,8 @@
 
 # Nested MatLab structures were converted to .csv files using the following: Gero Nootz (2021). Nested Structure to table and or text file (https://www.mathworks.com/matlabcentral/fileexchange/51271-nested-structure-to-table-and-or-text-file), MATLAB Central File Exchange. Retrieved January 17, 2020.
 
+Imaging data was tracked using an ImageJ Macro originally used in in Larsch et al., 2013 (https://doi.org/10.1073/pnas.1318325110). Tracks were cleaned and processed using custom Python and  MATLAB functions included here. 
+
 # Any questions regarding these data should be directed to Aylesse Sordillo at aylesse.sordillo@gmail.com.
 
 # The tracker can be accessed at: https://github.com/navinpokala/BargmannWormTracker
