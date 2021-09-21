@@ -32,6 +32,7 @@ Custom MATLAB functions used to generate these data sets are included here (Sord
 
 
 Description of Variables:
+	
 	Genotype: A label describing the genotype or strain in the dataset
 
 	Experiment: A label describing the experiment
