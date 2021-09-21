@@ -32,38 +32,39 @@ Custom MATLAB functions used to generate these data sets are included here (Sord
 
 
 Description of Variables:
-Genotype: A label describing the genotype or strain in the dataset
+	Genotype: A label describing the genotype or strain in the dataset
 
-Experiment: A label describing the experiment
-
-	AllReversals: includes all reversals (Reversal Omegas, Pure Reversals, other)
-	
-	ReversalOmegas: reversals coupled to sharp omega turns
-
-	PureReversals: reversals followed by immediate forward 	movement
-
-	ForwardRuns: forward crawls (as opposed to reversals) Forward Runs with < 2 s duration are not included.
-
-		Length: reversal length (body lengths)
-
-		Speed: reversal or forward run speed (mm/s)
-
-		Duration: reversal or forward run duration (s)
-
-	Events per animal per minute: each value represents the count of a behavioral event per animal divided by the number of minutes (4)
+	Experiment: A label describing the experiment
 
 		AllReversals: includes all reversals (Reversal Omegas, Pure Reversals, other)
-
+	
 		ReversalOmegas: reversals coupled to sharp omega turns
-		PureReversals: reversals followed by immediate forward movement
 
-		LongReversals: reversals > 0.5 body lengths
+		PureReversals: reversals followed by immediate forward 	movement
 
-		ShortReversals: reversals < 0.5 body lengths
+		ForwardRuns: forward crawls (as opposed to reversals) Forward Runs with < 2 s duration are not included.
 
-		ForwardRuns: forward crawls (as opposed to reversals, not filtered by duration).
+			Length: reversal length (body lengths)
 
-		Pauses: animal is not moving forward or backward (based on low velocity, see Bargmann Lab Tracker).
+			Speed: reversal or forward run speed (mm/s)
+
+			Duration: reversal or forward run duration (s)
+
+		Events per animal per minute: each value represents the count of a behavioral event per animal divided by the number of minutes (4)
+
+			AllReversals: includes all reversals (Reversal Omegas, Pure Reversals, other)
+
+			ReversalOmegas: reversals coupled to sharp omega turns
+			
+			PureReversals: reversals followed by immediate forward movement
+
+			LongReversals: reversals > 0.5 body lengths
+
+			ShortReversals: reversals < 0.5 body lengths
+
+			ForwardRuns: forward crawls (as opposed to reversals, not filtered by duration).
+
+			Pauses: animal is not moving forward or backward (based on low velocity, see Bargmann Lab Tracker).
 
 
 2) A source data file (Sordilo_SourceData.xlxs) includes data pertaining to all dot plots is also included and labeled by figure panel. 
