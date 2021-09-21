@@ -1,7 +1,7 @@
 SordilloBargmann2021
 This repository contains data files pertaining to Sordillo, A. and Bargmann, C. I. (2021). 
 
-Questions about this repository can be directed towards Aylesse Sordillo at aylesse.sordillo@gmail.com or Cori Bargmann at cori.rockefeller.edu 
+Questions about this repository can be directed towards Aylesse Sordillo at aylesse.sordillo@gmail.com or Cori Bargmann at cori@rockefeller.edu 
 
 These data were collected in the Bargmann Lab at Rockefeller University in New York City from 2017-2021.
 
