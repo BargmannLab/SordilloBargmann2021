@@ -8,7 +8,9 @@ These data were collected in the Bargmann Lab at Rockefeller University in New Y
 
 Funding was provided by HHMI and Chan Zuckerberg Science Initiative.
 
-1) Data sets relevant to all of distributions in the main figures (excluding the optogenetics experiments) are included as both a .mat file that contains a MATLAB structure and a .csv file. Data sets from RIC supplements are also included for those interested.
+
+
+Data sets relevant to all of distributions in the main figures (excluding the optogenetics experiments) are included as both a .mat file that contains a MATLAB structure and a .csv file. Data sets from RIC supplements are also included for those interested.
 
 Each genotype (or transgenic line) tested has its own files.  Files are named by experiment and then genotype/line.
 
@@ -68,13 +70,16 @@ Description of Variables:
 			Pauses: animal is not moving forward or backward (based on low velocity, see Bargmann Lab Tracker).
 
 
-2) A source data file (Sordilo_SourceData.xlxs) includes data pertaining to all dot plots is also included and labeled by figure panel. 
+
+A source data file (Sordilo_SourceData.xlxs) includes data pertaining to all dot plots is also included and labeled by figure panel. 
 
 For behavioral data, data from individual tracks recorded on a single day from a single assay plate were averaged to give a single data point, e.g. in Figure 2B and 2D. Genotypes are as described in the figures/text.
 
 For imaging data each dot is data from a single trace (Figure 5-figure supplement3). 
-	
-3) Imaging data (Figure 5-figure supplement3) was tracked using an ImageJ Macro originally used in in Larsch et al., 2013 (https://doi.org/10.1073/pnas.1318325110). Tracks were cleaned and processed using custom MATLAB and Python functions included here (SordilloCode3.m, SordilloCode4).
+
+
+
+Imaging data (Figure 5-figure supplement3) was tracked using an ImageJ Macro originally used in in Larsch et al., 2013 (https://doi.org/10.1073/pnas.1318325110). Tracks were cleaned and processed using custom MATLAB and Python functions included here (SordilloCode3.m, SordilloCode4).
 
 
 
