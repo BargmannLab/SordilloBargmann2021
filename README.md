@@ -10,7 +10,7 @@ Funding was provided by HHMI and Chan Zuckerberg Science Initiative.
 
 
 
-Data sets relevant to all of distributions in the main figures (excluding the optogenetics experiments) are included as both a .mat file that contains a MATLAB structure and a .csv file. Data sets from RIC supplements are also included for those interested.
+1) Data sets relevant to all of distributions in the main figures (excluding the optogenetics experiments) are included as both a .mat file that contains a MATLAB structure and a .csv file. Data sets from RIC supplements are also included for those interested.
 
 Each genotype (or transgenic line) tested has its own files.  Files are named by experiment and then genotype/line.
 
@@ -71,15 +71,18 @@ Description of Variables:
 
 
 
-A source data file (Sordilo_SourceData.xlxs) includes data pertaining to all dot plots is also included and labeled by figure panel. 
-
-For behavioral data, data from individual tracks recorded on a single day from a single assay plate were averaged to give a single data point, e.g. in Figure 2B and 2D. Genotypes are as described in the figures/text.
-
-For imaging data each dot is data from a single trace (Figure 5-figure supplement3). 
+2) A source data file (Sordilo_SourceData1_0928.xlxs) includes data pertaining to all dot plots labeled by figure panel. This file includes source data pertaining to all dot plots labeled by figure panel.  The numerical value represents the average frequency of a behavioral event, per animal, per minute, on a single assay plate.
 
 
 
-Imaging data (Figure 5-figure supplement3) was tracked using an ImageJ Macro originally used in in Larsch et al., 2013 (https://doi.org/10.1073/pnas.1318325110). Tracks were cleaned and processed using custom MATLAB and Python functions included here (SordilloCode3.m, SordilloCode4).
+3) A source data file (Sordilo_SourceData2_0928.xlxs) includes source data for Figure 5- figure supplement 3: each entry describes RIM calcium imaging data from a single 5 minute-long trace, either at 0-5 minutes or 30-35 minutes after removal of conditioned medium. Figure5-figure supplement 3C: fraction time RIM was ON in each trace. Figure5-figure supplement 3D: count of RIM transitions to the ON state in each trace. Figure5-figure supplement 3E: mean change in GCaMP fluorescence between the OFF and ON states for each trace. 
 
+
+
+4) Imaging data (Figure 5-figure supplement3) was tracked using an ImageJ Macro originally used in in Larsch et al., 2013 (https://doi.org/10.1073/pnas.1318325110). Tracks were cleaned and processed using custom MATLAB and Python functions included here (SordilloCode3.m, SordilloCode4).
+
+
+
+Also see ReadMe.txt
 
 
